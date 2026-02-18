@@ -6,13 +6,13 @@ export default function Certifications() {
       title: 'Career Essentials in Business Analysis',
       issuer: 'Microsoft and LinkedIn',
       date: 'Jun, 2025',
-      link: undefined,
+      link: 'https://drive.google.com/file/d/1Ydg5aVYYGWvk1_2ysoVmb3w4FbhINyTZ/view?usp=sharing',
     },
     {
       title: 'Power BI Analysis',
       issuer: 'Microsoft',
       date: '2024',
-      link: undefined,
+      link: 'https://learn.microsoft.com/en-us/users/devanshraizada-8738/',
     },
     {
       title: 'Gen-AI Master Mind',
@@ -24,7 +24,31 @@ export default function Certifications() {
       title: 'Advance SQL Course',
       issuer: 'By Satish Dhawale',
       date: '2024',
-      link: undefined,
+      link: 'https://drive.google.com/file/d/11vzNLB9Ei7Wk__ts2lqWWK2vmHBOKXz5/view',
+    },
+    {
+      title: '5 Star SQL HackerRank',
+      issuer: 'HackerRank',
+      date: '2024',
+      link: 'https://www.hackerrank.com/profile/devanshraizada41',
+    },
+    {
+      title: 'AIR 947 UGC',
+      issuer: 'UGC Certification',
+      date: '2024',
+      link: 'https://drive.google.com/file/d/1jf9DOe1MnGDZH2nDfdal58_Sy3G0FjiP/view',
+    },
+    {
+      title: 'Flipkart Grid',
+      issuer: 'Flipkart',
+      date: '2024',
+      link: 'https://drive.google.com/file/d/1ec0VAACEHyjNFjImPbQ-pqzng5V8rm6Z/view',
+    },
+    {
+      title: 'Accenture Job Simulation',
+      issuer: 'Accenture',
+      date: '2024',
+      link: 'https://drive.google.com/drive/u/0/folders/1AzjNpbtdrJaEx8Ujhi7WNHV_KqeoDTSV',
     },
   ];
 

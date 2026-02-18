@@ -11,6 +11,7 @@ export default function Projects() {
         'Analyzed Swiggy customer data on 10 different metrics',
         'Drew 5 key insights along with 5 actionable recommendations to increase sales and profit',
       ],
+      link: 'https://github.com/DevanshRaizada/SQL_Swiggy',
     },
     {
       title: 'Library Management System',
@@ -22,9 +23,10 @@ export default function Projects() {
         'Managed record of over 1200 students',
         'Designed the system to the custom needs of the library',
       ],
+      link: 'https://github.com/DevanshRaizada/Library-Management-System-',
     },
     {
-      title: 'BhagExpress',
+      title: 'Project BhagExpress',
       tech: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'React.js', 'MongoDB'],
       date: 'Apr, 2023',
       teamSize: 3,
@@ -33,6 +35,7 @@ export default function Projects() {
         'Enhanced Customer Service: Developed package status tracking functionality',
         'Utilized React, CSS, and JavaScript for the front-end, while MongoDB, Node.js, and React.js for the back-end',
       ],
+      link: 'https://devanshraizada.github.io/Logistic/',
     },
   ];
 
@@ -46,9 +49,14 @@ export default function Projects() {
 
         <div className="space-y-8">
           {projects.map((project, index) => (
-            <div
+            <a
               key={index}
-              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group"
+              href={project.link || '#'}
+              target={project.link ? '_blank' : undefined}
+              rel={project.link ? 'noopener noreferrer' : undefined}
+              className={`bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group block ${
+                project.link ? 'cursor-pointer hover:-translate-y-1' : ''
+              }`}
             >
               <div className="flex items-start gap-4 mb-6">
                 <div className="bg-gradient-to-br from-blue-100 to-cyan-100 rounded-lg p-3 group-hover:scale-110 transition-transform">
@@ -94,7 +102,7 @@ export default function Projects() {
                   </ul>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
