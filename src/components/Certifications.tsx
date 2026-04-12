@@ -55,11 +55,11 @@ export default function Certifications() {
               href={cert.link || '#'}
               target={cert.link ? '_blank' : undefined}
               rel={cert.link ? 'noopener noreferrer' : undefined}
-              className={`group relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer overflow-hidden`}
+              className={`group relative bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 cursor-pointer overflow-hidden`}
             >
-              <div className={`absolute inset-0 bg-gradient-to-br ${cert.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}></div>
+              <div className={`absolute inset-0 bg-gradient-to-br ${cert.color} opacity-0 group-hover:opacity-10 transition-opacity duration-500`}></div>
               <div className="relative flex items-start gap-4">
-                <div className={`bg-gradient-to-br ${cert.color} rounded-xl p-3 group-hover:scale-125 group-hover:rotate-6 transition-transform duration-500 flex-shrink-0`}>
+                <div className={`bg-gradient-to-br ${cert.color} rounded-xl p-3 group-hover:scale-125 group-hover:rotate-12 transition-transform duration-500 flex-shrink-0`}>
                   <Award className={`${cert.iconColor}`} size={28} />
                 </div>
                 <div className="flex-1">
